@@ -1,0 +1,307 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "assignment01.ipynb",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PosgradoMNA/actividades-de-aprendizaje-Dahemo76/blob/main/Lab%20IBM%20Write%20your%20first%20phyton%20code\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "LzUSMM79NR9P",
+        "outputId": "ca8ae794-b39e-40e9-f27d-bf8e8bac3714",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, Python!\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Try your first Python output\n",
+        "\n",
+        "print('Hello, Python!')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Check the Python Version\n",
+        "\n",
+        "import sys\n",
+        "print(sys.version)"
+      ],
+      "metadata": {
+        "id": "mxM_WppZPMFx",
+        "outputId": "35c977f8-0521-4cef-da43-caf346ed5639",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3.7.14 (default, Sep  8 2022, 00:06:44) \n",
+            "[GCC 7.5.0]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Practice on writing comments\n",
+        "\n",
+        "print('Hello, Python!') # This line prints a string\n",
+        "# print('Hi')"
+      ],
+      "metadata": {
+        "id": "kGscjRuXSFep",
+        "outputId": "60956649-a122-4ef4-f2ee-7edcbe8b1469",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, Python!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Print string as error message\n",
+        "\n",
+        "frint(\"Hello, Python!\")"
+      ],
+      "metadata": {
+        "id": "8wmmux4zSLQM",
+        "outputId": "20ea8279-dc8a-4078-9383-28501b226c30",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 201
+        }
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-4-313a1769a8a5>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;31m# Print string as error message\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m \u001b[0mfrint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Hello, Python!\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m: name 'frint' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Try to see built-in error message\n",
+        "\n",
+        "print(\"Hello, Python!)"
+      ],
+      "metadata": {
+        "id": "sXRyieRQSMqC",
+        "outputId": "f6f64de7-dfd1-4cf6-e377-d682651494c1",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 131
+        }
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-5-f0b5a635e1a2>\"\u001b[0;36m, line \u001b[0;32m3\u001b[0m\n\u001b[0;31m    print(\"Hello, Python!)\u001b[0m\n\u001b[0m                          ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m EOL while scanning string literal\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Print string and error to see the running order\n",
+        "\n",
+        "print(\"This will be printed\")\n",
+        "frint(\"This will cause an error\")\n",
+        "print(\"This will NOT be printed\")"
+      ],
+      "metadata": {
+        "id": "iu1X0fDGSRHp",
+        "outputId": "285bb172-039f-43a6-eed9-06c8b6a3aa20",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 235
+        }
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This will be printed\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-6-af59af1b345d>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"This will be printed\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 4\u001b[0;31m \u001b[0mfrint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"This will cause an error\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      5\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"This will NOT be printed\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'frint' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Write your code below. Don't forget to press Shift+Enter to execute the cell\n",
+        "print(\"Hello, world\")"
+      ],
+      "metadata": {
+        "id": "7SGDtGkcSSYe",
+        "outputId": "094149f8-dde8-4a5b-985a-462f04cc01d6",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, world\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Write your code below. Don't forget to press Shift+Enter to execute the cell\n",
+        "print(\"Hello, World\")#Print the traditional hello world"
+      ],
+      "metadata": {
+        "id": "VZRhYdtASVPp",
+        "outputId": "459fda9d-7023-4c96-8c18-d5e38422d0a4",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, World\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Integer\n",
+        "\n",
+        "11"
+      ],
+      "metadata": {
+        "id": "0XZaECExSc4u",
+        "outputId": "dec8770e-337d-490c-f995-2f88fcaa9f26",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "11"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Float\n",
+        "2.14"
+      ],
+      "metadata": {
+        "id": "IztUE8aoSfYW",
+        "outputId": "4d38b9f9-8c23-4fa6-a147-08a353244cef",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "2.14"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    }
+  ]
+}
